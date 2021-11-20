@@ -1,0 +1,52 @@
+body {
+	background-image: url("back.jpg");
+	background-size: 1920px 1080px;
+}
+
+html, body {
+  background-repeat: no-repeat;
+}
+
+.uvod {background-color: whitesmoke;
+		opacity: 0.9;
+		border: solid 2px black;
+}
+.font {
+	font-size: 40px;
+	font-family: arial;
+	padding-left: 15px;
+	padding-top: 3px;
+	text-shadow: 2px 3px gray;
+	letter-spacing: 3px;
+}
+.ikona {
+	padding-top: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
+
+}
+.opis {
+	padding-left: 15px;
+	padding bottom: 100px;
+}
+.topnav{
+	background-color: whitesmoke;
+	overflow: hidden;
+
+}
+.topnav a{
+	float: left;
+	color: whitesmoke
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav	a:hover {
+	background-color: red;
+	color: whitesmoke;
+}
+.topnav a:active{
+	background-color: whitesmoke;
+	color: dimgray;
+}
